@@ -1,0 +1,17 @@
+.pokemonCard {
+    background-color: aliceblue;
+    justify-content: space-around;
+    display: inline;
+    padding: auto;
+}
+
+.tarjeta {
+    background-color: rgb(244, 247, 97);
+    max-width: 150px;
+    border: 10px;
+    display: block;
+    border-radius: 30px;
+    border-color: rgb(243, 159, 49);
+    align-items: center;
+    justify-content: center;
+}
