@@ -45,10 +45,11 @@ function displayPokemonCard(pokemon) {
     const weight = document.createElement('p');
     weight.innerHTML = `Weight: ${pokemon.weight} kg`;
 
+    //Agregar a la estructura
     card.appendChild(image);
     card.appendChild(name);
     card.appendChild(id);
     card.appendChild(weight);
 
-    pokemonCardContainer.appendChild(card);
+    pokemonCardContainer.appendChild(card);//Se agrega todo
 }
