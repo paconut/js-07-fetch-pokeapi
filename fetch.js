@@ -33,7 +33,7 @@ function displayPokemonCard(pokemon) {
     card.classList.add('tarjeta');
 
     const image = document.createElement('img');
-    image.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/${pokemon.id}.png`;
+    image.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`;
     image.alt = pokemon.name;
 
     const name = document.createElement('h2');
